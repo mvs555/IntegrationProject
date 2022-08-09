@@ -64,8 +64,8 @@
               <value>${environment}</value>
             </replacement>
 			<replacement>
-              <token>@server</token>
-              <value>${server}</value>
+              <token>@host</token>
+              <value>${host}</value>
             </replacement>
           </replacements>
         </configuration>
