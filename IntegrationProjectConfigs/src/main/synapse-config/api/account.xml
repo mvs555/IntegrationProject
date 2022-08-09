@@ -5,7 +5,7 @@
             <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
             <property name="ContentType" scope="axis2" type="STRING" value="application/json"/>
             <payloadFactory media-type="json">
-                <format>{"message":"welcome to @environment environment"}</format>
+                <format>{"message":"welcome to @environment environment","host":"@server"}</format>
                 <args/>
             </payloadFactory>
             <log>
