@@ -63,6 +63,10 @@
               <token>@environment</token>
               <value>${environment}</value>
             </replacement>
+			<replacement>
+              <token>@server</token>
+              <value>${server}</value>
+            </replacement>
           </replacements>
         </configuration>
       </plugin>
