@@ -1,0 +1,9 @@
+---
+apiVersion: "wso2.com/v1alpha2"
+kind: "Integration"
+metadata:
+  name: "integration-project"
+spec:
+  image: "vmudundi12/integration-project:1.0.0"
+  deploySpec:
+    minReplicas: 1
