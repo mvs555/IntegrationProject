@@ -1,0 +1,6 @@
+.classpath
+.settings/
+target/
+bin/
+graphical-synapse-config/
+build.properties
