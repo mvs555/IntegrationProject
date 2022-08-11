@@ -4,7 +4,7 @@ kind: "Integration"
 metadata:
   name: "integration-project"
 spec:
-  image: "vmudundi12/integration-project:1.0.0.M1"
+  image: "vmudundi12/integration-project:1.0.0-M1"
   deploySpec:
     minReplicas: 1
   expose:
