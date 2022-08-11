@@ -7,3 +7,5 @@ spec:
   image: "vmudundi12/integration-project:1.0.0"
   deploySpec:
     minReplicas: 1
+  expose:
+    passthroPort: 8290
